@@ -11,7 +11,7 @@ sales_data = np.random.rand(100) * 1000
 # Step 4: Create a DataFrame
 products = ['Product A', 'Product B', 'Product C', 'Product D', 'Product E']
 sales = np.random.rand(5) * 1000
-customers = np.random.randint(1, 100, size=5)
+customers = np.random.randint(1, 100, size=5) #from 1 to less than 100
 
 df = pd.DataFrame({
     'Product': products,
